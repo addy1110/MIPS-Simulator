@@ -1,4 +1,4 @@
-	#MIPS Simulator
+#MIPS Simulator
 	----------------------------------
 
 	Implemented an instruction-level simulator for a single cycle MIPS processor in C++. The simulator supports a subset of the MIPS instruction set and can model the execution of each instruction.
@@ -9,7 +9,7 @@
 
 	The instructions that the simulator supports and their encodings are shown in Table 1. Note that all instructions, except for “halt”, exist in the MIPS ISA. The MIPS Green Sheet from HW1 defines the semantics of each instruction.
 
-	[! tag](https://github.com/addy1110/MIPS-Simulator/blob/master/screenshots/instruction-table.png)
+	![alt tag](https://github.com/addy1110/MIPS-Simulator/blob/master/screenshots/instruction-table.png)
 
 	Four C++ classes defined implement one of the four major blocks in a single cycle MIPS, namely RF (to implement the register file), ALU (to
 	implement the ALU), INSMem (to implement instruction memory), and DataMem (to implement data memory).
